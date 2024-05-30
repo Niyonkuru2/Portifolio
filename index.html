@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="Portifolio.css"/>
+    <title>Potifolio Websites</title>
+</head>
+<body>
+    <section class="header" id="header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <a href="#" id="close"><i class="far fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Port.html">PORTIFOLIO</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <a href="#" id="close"><i class="far fa-bars" onclick="showMenu()"></i></a>
+        </nav>
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="Image/sam (1).jpeg" >
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi i'm <span>Samuel NIYONKURU</span>
+                    A Programmer
+                </h1>
+                    <p>
+                        I'm   web App developer, i like to create beautfull and functional systems and websites 
+                        in diffrent sector of activities and the website must have quality and very beautifull
+                        And responsive as modern design of websites exist to day
+                     </p>
+            </div>
+        </div>
+        </div>
+            </section>
+            
+            <section class="footer">
+                <h4>About Me</h4>
+                <p>I am the developer of Static and Dynamic Website  
+                    i have experience in provision of Quality Services<br/> 
+                    in diffrent services related to Programming
+                </p>
+                <div class="icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-linkedin"></i>
+                </div>
+                <p>Made with <i class="fa fa-heart"></i> by Niyonkuru Samuel</p>
+             </section>
+             
+             <!-----java script for toogle me----->
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
